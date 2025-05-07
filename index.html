@@ -2,13 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lumeimi Jewelry</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f8f6f3;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin: 0;
+    }
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    .intro {
+      text-align: center;
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #e0dede;
+      width: 250px;
+      border-radius: 8px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    footer {
+      margin-top: 80px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Lumeimi Jewelry</h1>
-  <p>Coming Soon...</p>
-  <script src="script.js"></script>
+
+<header>
+  <h1>Lumeimi Jewelry</h1>
+  <p>Timeless. Elegant. You.</p>
+</header>
+
+<section class="intro">
+  <p>Discover handcrafted jewelry that reflects your unique elegance. Lumeimi brings you timeless designs with a touch of modern simplicity.</p>
+</section>
+
+<section class="products">
+  <div class="product-card">
+    <img src="https://via.placeholder.com/250x250?text=Earring+1" alt="Product 1">
+    <h3>Gold Drop Earrings</h3>
+    <p>Elegant 18k gold drops.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://via.placeholder.com/250x250?text=Necklace" alt="Product 2">
+    <h3>Pearl Necklace</h3>
+    <p>Classic freshwater pearl strand.</p>
+  </div>
+  <div class="product-card">
+    <img src="https://via.placeholder.com/250x250?text=Ring" alt="Product 3">
+    <h3>Signature Ring</h3>
+    <p>Minimalist design with brilliance.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Lumeimi Jewelry. All rights reserved. | Follow us on Instagram @lumeimijewelry</p>
+</footer>
+
 </body>
 </html>
